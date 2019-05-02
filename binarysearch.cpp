@@ -5,7 +5,7 @@ using namespace std;
 int binarySearch(vector<int> &v, int x)
 {
     int l = 0;
-    int r = v.size() - 1;
+    int r = int(v.size()) - 1;
     int m;
     while (l <= r)
     {
@@ -21,7 +21,7 @@ int binarySearch(vector<int> &v, int x)
         else if (v[m] < x)
         {
             l = m + 1;
-        }        
+        }
     }
 
     return -1;
