@@ -1,0 +1,7 @@
+Merge Sort O(n lg(n))
+Merge sort does have a couple of disadvantages compared with the
+other two sorting algorithms we have seen. First, the constant factor
+that we hide in the asymptotic notation is higher than for the other two
+algorithms. Of course, once the array size n gets large enough, that
+doesn’t really matter. Second, merge sort does not work in place: it has
+to make complete copies of the entire input array.
