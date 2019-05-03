@@ -1,5 +1,5 @@
-#include <iostream>
 #include <vector>
+#include <iostream>
 using namespace std;
 
 void merge(vector<int> &v, int p, int q, int r)
